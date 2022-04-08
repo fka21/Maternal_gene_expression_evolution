@@ -1,0 +1,690 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fritzen.sars.no (SSE4.2, 1009 GB RAM)
+Command: iqtree2 --redo -s HMM/ent_domains.msa -ntmax 5 -msub nuclear -bb 1000
+Seed:    49505 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov 13 14:23:50 2021
+Kernel:  SSE2 - 1 threads (32 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 32 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file HMM/ent_domains.msa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 278 sequences with 94 columns, 85 distinct patterns
+56 parsimony-informative, 9 singleton sites, 29 constant sites
+                                                  Gap/Ambiguity  Composition  p-value
+   1  EDO45194|nematostella-vectensis                     6.38%    passed     31.11%
+   2  SMAR008611-RA|strigamia-maritima                   26.60%    passed     89.89%
+   3  g30465.t1|lingula-anatina                          25.53%    passed     98.73%
+   4  ENSGALT00000068177|gallus-gallus                   25.53%    passed    100.00%
+   5  ENSCMIT00000011543|callorhinchus-milii             25.53%    passed     99.77%
+   6  LotgiT109747|lottia-gigantea                       26.60%    passed     95.09%
+   7  PCA30505.1|priapulus-caudatus|priapulus-caudatus   25.53%    passed     59.18%
+   8  BL12701_cuf22|branchiostoma-lanceolatum            25.53%    passed     97.86%
+   9  CLYHEMT001677.1|clytia-hemisphaerica               25.53%    passed     77.91%
+  10  ENSPPAT00000053881|pan-paniscus                    30.85%    passed    100.00%
+  11  ENSSHAT00000048999|sarcophilus-harrisii            30.85%    passed    100.00%
+  12  ENSLLET00000016628|leptobrachium-leishanense       25.53%    passed    100.00%
+  13  ENSAOCT00000010928|amphiprion-ocellaris            25.53%    passed     99.99%
+  14  ENSCJPT00005008960|coturnix-japonica               25.53%    passed    100.00%
+  15  ENSCPRT00005028088|crocodylus-porosus              25.53%    passed    100.00%
+  16  ENSPMRT00000001687|podarcis-muralis                25.53%    passed    100.00%
+  17  ENSVURT00010025128|vombatus-ursinus                25.53%    passed    100.00%
+  18  ENSSPUT00000012709|sphenodon-punctatus             25.53%    passed    100.00%
+  19  ENSJJAT00000028314|jaculus-jaculus                 25.53%    passed    100.00%
+  20  ENSFALT00000006527|ficedula-albicollis             25.53%    passed    100.00%
+  21  ENSTGUT00000014126|taeniopygia-guttata             25.53%    passed    100.00%
+  22  ENSSCAT00000025795|serinus-canaria                 25.53%    passed    100.00%
+  23  ENSUPAT00010018893|urocitellus-parryii             25.53%    passed    100.00%
+  24  ENSSCUT00000031718|struthio-camelus                25.53%    passed    100.00%
+  25  ENSPVAT00000011933|pteropus-vampyrus               25.53%    passed    100.00%
+  26  ENSSSCT00000042237|sus-scrofa                      25.53%    passed    100.00%
+  27  ENSAPLT00000010520|anas-platyrhynchos              25.53%    passed    100.00%
+  28  ENSPMJT00000020918|parus-major                     25.53%    passed    100.00%
+  29  ENSPSIT00000015758|pelodiscus-sinensis             25.53%    passed    100.00%
+  30  ENSCSAT00000001916|chlorocebus-sabaeus             25.53%    passed    100.00%
+  31  ENSABRT00000024907|anser-brachyrhynchus            25.53%    passed    100.00%
+  32  ENSDNOT00000015220|dasypus-novemcinctus            25.53%    passed    100.00%
+  33  MGP_SPRETEiJ_T0084171|mus-spretus                  25.53%    passed    100.00%
+  34  ENSLAFT00000011753|loxodonta-africana              25.53%    passed    100.00%
+  35  ENSTMTT00000003126|terrapene-carolina              25.53%    passed    100.00%
+  36  ENSGEVT00005000952|gopherus-evgoodei               25.53%    passed    100.00%
+  37  EGACTEQ4350037460-RA|actinia-equina                26.60%    passed     96.10%
+  38  ENSOANT00000021408|ornithorhynchus-anatinus        25.53%    passed    100.00%
+  39  ENSSGRT00000022832|sinocyclocheilus-grahami        25.53%    passed    100.00%
+  40  ENSCART00000013087|carassius-auratus               25.53%    passed    100.00%
+  41  ENSCVAT00000017825|cyprinodon-variegatus           25.53%    passed    100.00%
+  42  ENSXETT00000042090|xenopus-tropicalis              25.53%    passed    100.00%
+  43  ENSHHUT00000047966|hucho-hucho                     25.53%    passed    100.00%
+  44  ENSDCDT00000024226|denticeps-clupeoides            25.53%    passed    100.00%
+  45  ENSDCDT00000064201|denticeps-clupeoides            25.53%    passed    100.00%
+  46  ENSACAT00000017152|anolis-carolinensis             25.53%    passed    100.00%
+  47  ENSCABT00000030238|chelonoidis-abingdonii          25.53%    passed    100.00%
+  48  EDO26054|nematostella-vectensis                    37.23%    failed      0.00%
+  49  ENSSMRT00000010339|salvator-merianae               25.53%    passed    100.00%
+  50  ENSAMXT00000009066|astyanax-mexicanus              25.53%    passed    100.00%
+  51  ENSIPUT00000013316|ictalurus-punctatus             25.53%    passed    100.00%
+  52  ISCI019096-RA|ixodes-scapularis                    26.60%    passed     99.55%
+  53  ENSSTUT00000086383|salmo-trutta                    25.53%    passed    100.00%
+  54  ENSSSAT00000105582|salmo-salar                     25.53%    passed    100.00%
+  55  ENSLOCT00000005804|lepisosteus-oculatus            25.53%    passed    100.00%
+  56  ENSPNAT00000019267|pygocentrus-nattereri           25.53%    passed    100.00%
+  57  ENSOMYT00000074236|oncorhynchus-mykiss             25.53%    passed    100.00%
+  58  ENSHHUT00000085543|hucho-hucho                     25.53%    passed    100.00%
+  59  ENSOTST00005032911|oncorhynchus-tshawytscha        25.53%    passed    100.00%
+  60  ENSOTST00005046679|oncorhynchus-tshawytscha        25.53%    passed    100.00%
+  61  ENSOTST00005069908|oncorhynchus-tshawytscha        25.53%    passed    100.00%
+  62  ENSOKIT00005075728|oncorhynchus-kisutch            25.53%    passed    100.00%
+  63  ENSCHAT00000023091|clupea-harengus                 25.53%    passed    100.00%
+  64  ISCW019096-RA|ixodes-scapularis                    26.60%    passed     99.55%
+  65  ENSXMAT00000011411|xiphophorus-maculatus           25.53%    passed    100.00%
+  66  ENSOKIT00005075497|oncorhynchus-kisutch            25.53%    passed    100.00%
+  67  ENSDART00000183273|danio-rerio                     25.53%    passed    100.00%
+  68  ENSECRT00000013105|erpetoichthys-calabaricus       25.53%    passed    100.00%
+  69  ENSMMDT00005017083|myripristis-murdjan             25.53%    passed     99.97%
+  70  ENSPKIT00000015627|paramormyrops-kingsleyae        25.53%    passed     99.99%
+  71  Ocbimv22028273m|octopus-bimaculoides               25.53%    passed     98.80%
+  72  ENSLBET00000035821|labrus-bergylta                 25.53%    passed     99.98%
+  73  ENSSPAT00000006966|stegastes-partitus              25.53%    passed     99.99%
+  74  ENSSLDT00000004650|seriola-lalandi                 25.53%    passed     99.99%
+  75  ENSSDUT00000011441|seriola-dumerili                25.53%    passed     99.99%
+  76  ENSAPOT00000012810|acanthochromis-polyacanthus     25.53%    passed    100.00%
+  77  ENSSLUT00000015271|sander-lucioperca               25.53%    passed     99.99%
+  78  ENSCCRT00000028336|cyprinus-carpio                 25.53%    passed    100.00%
+  79  ENSCSET00000023801|cynoglossus-semilaevis          25.53%    passed    100.00%
+  80  ENSMAMT00000064816|mastacembelus-armatus           25.53%    passed     99.99%
+  81  ENSCLMT00005032802|cyclopterus-lumpus              25.53%    passed     99.99%
+  82  ENSPLAT00000001158|poecilia-latipinna              25.53%    passed     99.99%
+  83  ENSAPET00000016612|amphiprion-percula              25.53%    passed     99.99%
+  84  ENSOMYT00000034128|oncorhynchus-mykiss             25.53%    passed    100.00%
+  85  ENSACLT00000035503|astatotilapia-calliptera        25.53%    passed     99.99%
+  86  ENSLCRT00005000292|larimichthys-crocea             25.53%    passed     99.99%
+  87  ENSLCAT00010020630|lates-calcarifer                25.53%    passed     99.99%
+  88  ENSPFOT00000003561|poecilia-formosa                25.53%    passed     99.99%
+  89  ENSHBUT00000019394|haplochromis-burtoni            25.53%    passed     99.99%
+  90  ENSPRET00000021627|poecilia-reticulata             25.53%    passed     99.99%
+  91  ENSSFOT00015021436|scleropages-formosus            25.53%    passed     99.99%
+  92  ENSGMOT00000073813|gadus-morhua                    25.53%    passed     99.99%
+  93  ENSATET00000034165|anabas-testudineus              25.53%    passed     99.99%
+  94  ENSDLAT00005048591|dicentrarchus-labrax            25.53%    passed     99.99%
+  95  ENSONIT00000075196|oreochromis-niloticus           25.53%    passed     99.99%
+  96  ENSSAUT00010024691|sparus-aurata                   25.53%    passed    100.00%
+  97  ENSOMET00000014785|oryzias-melastigma              25.53%    passed    100.00%
+  98  ENSOJAT00000044007|oryzias-javanicus               25.53%    passed    100.00%
+  99  ENSBSLT00000037488|betta-splendens                 25.53%    passed     99.99%
+ 100  ENSORLT00000029784|oryzias-latipes                 25.53%    passed    100.00%
+ 101  ENSKMAT00000017153|kryptolebias-marmoratus         25.53%    passed    100.00%
+ 102  ENSSMAT00000070912|scophthalmus-maximus            25.53%    passed     99.99%
+ 103  ENSSSAT00000150375|salmo-salar                     25.53%    passed    100.00%
+ 104  ENSSTUT00000016933|salmo-trutta                    25.53%    passed    100.00%
+ 105  ENSACCT00020015393|aquila-chrysaetos               30.85%    passed    100.00%
+ 106  ENSPTXT00000024753|pseudonaja-textilis             25.53%    passed    100.00%
+ 107  ENSNSUT00000010907|notechis-scutatus               25.53%    passed    100.00%
+ 108  ENSNNAT00000016103|naja-naja                       25.53%    passed    100.00%
+ 109  ENSELUT00000031084|esox-lucius                     25.53%    passed    100.00%
+ 110  ENSCART00000093273|carassius-auratus               25.53%    passed    100.00%
+ 111  ENSTRUT00000030474|takifugu-rubripes               25.53%    passed     99.97%
+ 112  ENSDORT00000008133|dipodomys-ordii                 30.85%    passed    100.00%
+ 113  ENSMMMT00000012243|marmota-marmota                 30.85%    passed    100.00%
+ 114  ENSNGAT00000017161|nannospalax-galili              30.85%    passed    100.00%
+ 115  ENSMUST00000205276|mus-musculus                    30.85%    passed    100.00%
+ 116  MGP_CAROLIEiJ_T0080799|mus-caroli                  30.85%    passed    100.00%
+ 117  ENSPCOT00000028857|propithecus-coquereli           30.85%    passed    100.00%
+ 118  MGP_PahariEiJ_T0017638|mus-pahari                  30.85%    passed    100.00%
+ 119  ENSMAUT00000023483|mesocricetus-auratus            30.85%    passed    100.00%
+ 120  ENSPEMT00000032419|peromyscus-maniculatus          30.85%    passed    100.00%
+ 121  ENSMOCT00000010444|microtus-ochrogaster            30.85%    passed    100.00%
+ 122  ENSCGRT00001024346|cricetulus-griseus              30.85%    passed    100.00%
+ 123  ENSCHYT00000009186|cervus-hanglu                   30.85%    passed    100.00%
+ 124  ENSRNOT00000043788|rattus-norvegicus               30.85%    passed    100.00%
+ 125  ENSRFET00010031674|rhinolophus-ferrumequinum       30.85%    passed    100.00%
+ 126  ENSOGAT00000011439|otolemur-garnettii              30.85%    passed    100.00%
+ 127  ENSMMST00000002562|moschus-moschiferus             30.85%    passed    100.00%
+ 128  ENSMLUT00000012321|myotis-lucifugus                30.85%    passed    100.00%
+ 129  ENSMSIT00000040554|mus-spicilegus                  30.85%    passed    100.00%
+ 130  ENSMICT00000054804|microcebus-murinus              30.85%    passed    100.00%
+ 131  ENSSVLT00005032604|sciurus-vulgaris                30.85%    passed    100.00%
+ 132  ENSTSYT00000047725|carlito-syrichta                30.85%    passed    100.00%
+ 133  ENSPSMT00000012614|prolemur-simus                  30.85%    passed    100.00%
+ 134  ENSDLET00000004627|delphinapterus-leucas           30.85%    passed    100.00%
+ 135  ENSCWAT00000002171|catagonus-wagneri               30.85%    passed    100.00%
+ 136  ENSOART00020010257|ovis-aries                      30.85%    passed    100.00%
+ 137  ENSSTOT00000032503|ictidomys-tridecemlineatus      30.85%    passed    100.00%
+ 138  ENSCHIT00000023503|capra-hircus                    30.85%    passed    100.00%
+ 139  ENSMMNT00015028888|monodon-monoceros               30.85%    passed    100.00%
+ 140  ENSPSNT00000008280|phocoena-sinus                  30.85%    passed    100.00%
+ 141  ENSPCTT00005017417|physeter-catodon                30.85%    passed    100.00%
+ 142  ENSBIXT00005006139|bos-indicus                     30.85%    passed    100.00%
+ 143  ENSBMST00010009537|balaenoptera-musculus           30.85%    passed    100.00%
+ 144  ENSPLOT00000008422|panthera-leo                    30.85%    passed    100.00%
+ 145  ENSPPRT00000007964|panthera-pardus                 30.85%    passed    100.00%
+ 146  ENSPTIT00000025953|panthera-tigris                 30.85%    passed    100.00%
+ 147  ENSVVUT00000044361|vulpes-vulpes                   30.85%    passed    100.00%
+ 148  ENSECAT00000040922|equus-caballus                  30.85%    passed    100.00%
+ 149  ENSPCIT00000018009|phascolarctos-cinereus          30.85%    passed    100.00%
+ 150  ENSBGRT00000033119|bos-grunniens                   30.85%    passed    100.00%
+ 151  ENSBTAT00000014362|bos-taurus                      30.85%    passed    100.00%
+ 152  ENSBBBT00000026463|bison-bison                     30.85%    passed    100.00%
+ 153  ENSSBOT00000055755|saimiri-boliviensis             30.85%    passed    100.00%
+ 154  ENSFCAT00000049304|felis-catus                     30.85%    passed    100.00%
+ 155  ENSRBIT00000046461|rhinopithecus-bieti             30.85%    passed    100.00%
+ 156  ENSRROT00000056963|rhinopithecus-roxellana         30.85%    passed    100.00%
+ 157  ENSGACT00000027623|gasterosteus-aculeatus          30.85%    passed     99.95%
+ 158  ENSNVIT00000000553|neovison-vison                  30.85%    passed    100.00%
+ 159  ENSMFAT00000003375|macaca-fascicularis             30.85%    passed    100.00%
+ 160  ENSMMUT00000031506|macaca-mulatta                  30.85%    passed    100.00%
+ 161  ENSMNET00000061615|macaca-nemestrina               30.85%    passed    100.00%
+ 162  ENSMPUT00000008838|mustela-putorius                30.85%    passed    100.00%
+ 163  ENSNLET00000050222|nomascus-leucogenys             30.85%    passed    100.00%
+ 164  ENSPTRT00000090655|pan-troglodytes                 30.85%    passed    100.00%
+ 165  ENST00000524767|homo-sapiens                       30.85%    passed    100.00%
+ 166  ENSGGOT00000062843|gorilla-gorilla                 30.85%    passed    100.00%
+ 167  ENSCATT00000042846|cercocebus-atys                 30.85%    passed    100.00%
+ 168  ENSMLET00000061057|mandrillus-leucophaeus          30.85%    passed    100.00%
+ 169  ENSPANT00000029269|papio-anubis                    30.85%    passed    100.00%
+ 170  ENSANAT00000058796|aotus-nancymaae                 30.85%    passed    100.00%
+ 171  ENSAMET00000018600|ailuropoda-melanoleuca          30.85%    passed    100.00%
+ 172  ENSCJAT00000029729|callithrix-jacchus              30.85%    passed    100.00%
+ 173  ENSCART00000005111|carassius-auratus               25.53%    passed    100.00%
+ 174  ENSCAFT00000092376|canis-lupus                     30.85%    passed    100.00%
+ 175  ENSCDRT00005006938|camelus-dromedarius             30.85%    passed    100.00%
+ 176  ENSOCUT00000054357|oryctolagus-cuniculus           30.85%    passed    100.00%
+ 177  ENSCART00000094048|carassius-auratus               25.53%    passed    100.00%
+ 178  tetur08g06920.1|tetranychus-urticae                26.60%    passed     62.93%
+ 179  FBtr0431317|drosophila-mojavensis                  27.66%    passed     11.22%
+ 180  CapteT228047|capitella-teleta                      27.66%    passed     39.28%
+ 181  ENSHCOT00000014607|hippocampus-comes               26.60%    passed     99.77%
+ 182  XM_030981468|strongylocentrotus-purpuratus         27.66%    passed     94.26%
+ 183  ENSCPOT00000040646|cavia-porcellus                 30.85%    passed     99.99%
+ 184  ENSODET00000004981|octodon-degus                   30.85%    passed     99.99%
+ 185  ENSFHET00000035364|fundulus-heteroclitus           25.53%    passed     99.10%
+ 186  FBtr0415659|drosophila-willistoni                  27.66%    passed     10.17%
+ 187  ENSHGLT00000009098|heterocephalus-glaber           30.85%    passed     99.99%
+ 188  ENSCLAT00000023094|chinchilla-lanigera             30.85%    passed     99.99%
+ 189  ASTEI03971-RA|anopheles-stephensi                  27.66%    passed     99.91%
+ 190  DTIU011953-RA|dinothrombium-tinctorium             27.66%    failed      3.60%
+ 191  ENSMODT00000006676|monodelphis-domestica           30.85%    passed    100.00%
+ 192  ENSNFUT00015050481|nothobranchius-furzeri          25.53%    passed     99.98%
+ 193  AALF019902-RA|aedes-albopictus                     27.66%    passed     99.99%
+ 194  AALF004456-RA|aedes-albopictus                     27.66%    passed     99.99%
+ 195  AAEL002369-RA|aedes-aegypti                        27.66%    passed     99.99%
+ 196  FBtr0160431|drosophila-grimshawi                   27.66%    passed      5.87%
+ 197  FBtr0146275|drosophila-grimshawi                   27.66%    passed      5.87%
+ 198  KFM67138|stegodyphus-mimosarum                     26.60%    passed     86.97%
+ 199  BIMP24565-RA|bombus-impatiens                      27.66%    passed     25.66%
+ 200  XM_026441186|apis-mellifera                        27.66%    passed     25.66%
+ 201  MDOA013785-RB|musca-domestica                      27.66%    passed     73.63%
+ 202  XM_030981470|strongylocentrotus-purpuratus         32.98%    passed     95.82%
+ 203  ASTE007675-RA|anopheles-stephensi                  27.66%    passed     99.91%
+ 204  FBtr0144619|drosophila-erecta                      27.66%    failed      3.96%
+ 205  XM_011174754|solenopsis-invicta                    27.66%    passed     20.71%
+ 206  FBtr0364449|drosophila-simulans                    27.66%    failed      3.96%
+ 207  FBtr0077869|drosophila-melanogaster                27.66%    failed      3.96%
+ 208  SCAU009100-RB|stomoxys-calcitrans                  27.66%    passed     75.96%
+ 209  GPAI006338-RA|glossina-pallidipes                  27.66%    passed     52.11%
+ 210  GFUI049346-RA|glossina-fuscipes                    27.66%    passed     52.11%
+ 211  GPPI007699-RA|glossina-palpalis                    27.66%    passed     52.11%
+ 212  ACOM029430-RA|anopheles-coluzzii                   27.66%    passed     91.52%
+ 213  AMEM013246-RA|anopheles-merus                      27.66%    passed     91.52%
+ 214  GAUT018966-RA|glossina-austeni                     27.66%    passed     52.11%
+ 215  AMAM006726-RA|anopheles-maculatus                  27.66%    passed     97.82%
+ 216  AARA016458-RA|anopheles-arabiensis                 27.66%    passed     91.52%
+ 217  CSON000915-1|culicoides-sonorensis                 30.85%    passed     21.28%
+ 218  ENSMZET00005015612|maylandia-zebra                 32.98%    passed     99.79%
+ 219  AGAP010006-RA|anopheles-gambiae                    27.66%    passed     91.52%
+ 220  ACON010006-RA|anopheles-coluzzii                   27.66%    passed     91.52%
+ 221  FBtr0261801|drosophila-yakuba                      27.66%    passed      7.46%
+ 222  KNC29808|lucilia-cuprina                           27.66%    passed     75.96%
+ 223  XM_012307708.2|bombus-terrestris                   27.66%    passed     37.43%
+ 224  AFUN022189-RA|anopheles-funestus                   27.66%    passed     98.83%
+ 225  GBRI023069-RA|glossina-brevipalpis                 27.66%    passed     52.11%
+ 226  ADAC004142-RA|anopheles-darlingi                   28.72%    failed      0.00%
+ 227  ACHR005811-RA|anopheles-christyi                   27.66%    passed     99.16%
+ 228  Mdes007541-RA|mayetiola-destructor                 27.66%    passed     94.19%
+ 229  Mdes007537-RA|mayetiola-destructor                 27.66%    passed     94.19%
+ 230  FBtr0184075|drosophila-persimilis                  27.66%    failed      3.41%
+ 231  FBtr0281307|drosophila-pseudoobscura               27.66%    failed      3.41%
+ 232  MCINX014409-RA|melitaea-cinxia                     31.91%    passed     88.71%
+ 233  ADIR009393-RA|anopheles-dirus                      27.66%    passed     99.55%
+ 234  AMEC018213-RA|anopheles-melas                      27.66%    passed     92.43%
+ 235  FBtr0120014|drosophila-ananassae                   28.72%    passed     51.11%
+ 236  MESCA008900-RA|megaselia-scalaris                  27.66%    passed     15.11%
+ 237  DPOGS201292-TA|danaus-plexippus                    27.66%    passed     92.30%
+ 238  ACUA024638-RA|anopheles-culicifacies               27.66%    passed     98.06%
+ 239  ENSTNIT00000013370|tetraodon-nigroviridis          24.47%    passed     99.95%
+ 240  AFAF016994-RA|anopheles-farauti                    27.66%    passed     41.60%
+ 241  XM_001606578|nasonia-vitripennis                   26.60%    passed     62.81%
+ 242  TriadT60216|trichoplax-adhaerens                   27.66%    passed     26.08%
+ 243  AEPI011045-RA|anopheles-epiroticus                 27.66%    passed     97.77%
+ 244  HMEL012412-RA|heliconius-melpomene                 27.66%    passed     97.47%
+ 245  KFM79133|stegodyphus-mimosarum                     26.60%    passed     85.87%
+ 246  ENSNBRT00000018513|neolamprologus-brichardi        26.60%    passed     99.99%
+ 247  XM_012206027.1|atta-cephalotes                     27.66%    passed     65.07%
+ 248  ENSPNYT00000016152|pundamilia-nyererei             26.60%    passed     99.99%
+ 249  LLOJ005332-RA|lutzomyia-longipalpis                27.66%    passed     98.70%
+ 250  Aqu2.1.09019_001|amphimedon-queenslandica          27.66%    failed      0.01%
+ 251  ASIC008595-RA|anopheles-sinensis                   27.66%    passed     44.41%
+ 252  AATE014976-RA|anopheles-atroparvus                 27.66%    passed     40.12%
+ 253  ASIS010121-RA|anopheles-sinensis                   27.66%    passed     44.41%
+ 254  ENSEBUT00000022715|eptatretus-burgeri              32.98%    passed     97.69%
+ 255  AMIN015930-RA|anopheles-minimus                    27.66%    passed     93.10%
+ 256  TC014793_001|tribolium-castaneum                   30.85%    passed     15.44%
+ 257  IU25_03253-mRNA-1|belgica-antarctica               28.72%    passed     53.16%
+ 258  AGLA005992-RA|anoplophora-glabripennis             28.72%    passed     88.07%
+ 259  PPAI007700-RA|phlebotomus-papatasi                 28.72%    passed     88.79%
+ 260  KZS14565|daphnia-magna                             27.66%    passed     98.32%
+ 261  ENSCSAVT00000009619|ciona-savignyi                 34.04%    passed     98.36%
+ 262  Tv_08953-RA|trialeurodes-vaporariorum              26.60%    passed     78.71%
+ 263  ENSCINT00000031404|ciona-intestinalis              28.72%    passed     54.98%
+ 264  ENSPPYT00000004399|pongo-abelii                    41.49%    passed     99.96%
+ 265  EFX82598|daphnia-pulex                             32.98%    passed     98.55%
+ 266  ENN77231|dendroctonus-ponderosae                   36.17%    passed     75.63%
+ 267  ML02756a-RA|mnemiopsis-leidyi                      29.79%    passed     21.25%
+ 268  LDEU008561-RA|leptotrombidium-deliense             22.34%    failed      0.03%
+ 269  Bm9902a|brugia-malayi                              29.79%    passed      9.85%
+ 270  OVOC2663|onchocerca-volvulus                       30.85%    passed     19.75%
+ 271  BGIBMGA003041-RA|bombyx-mori                       41.49%    passed     83.22%
+ 272  HMIM009340-RA|hofstenia-miamia                     27.66%    passed     24.22%
+ 273  ENSSGRT00000086704|sinocyclocheilus-grahami        50.00%    passed     92.65%
+ 274  ENSCPBT00000047227|chrysemys-picta                 48.94%    passed     91.93%
+ 275  ENSCAFT00020002569|canis-lupus                     68.09%    passed     67.47%
+ 276  ENSUMAT00000017646|ursus-maritimus                 68.09%    passed     67.47%
+ 277  ENSEAST00005022448|equus-asinus                    73.40%    passed     84.15%
+ 278  ENSCGRT00001016389|cricetulus-griseus              75.53%    passed     99.30%
+WARNING: 4 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                              28.66%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: ENSCJPT00005008960|coturnix-japonica is identical to ENSGALT00000068177|gallus-gallus but kept for subsequent analysis
+NOTE: ENSSHAT00000048999|sarcophilus-harrisii is identical to ENSPPAT00000053881|pan-paniscus but kept for subsequent analysis
+NOTE: ENSSPAT00000006966|stegastes-partitus is identical to ENSAOCT00000010928|amphiprion-ocellaris but kept for subsequent analysis
+NOTE: ENSGEVT00005000952|gopherus-evgoodei is identical to ENSTMTT00000003126|terrapene-carolina but kept for subsequent analysis
+NOTE: ENSCCRT00000028336|cyprinus-carpio is identical to ENSSGRT00000022832|sinocyclocheilus-grahami but kept for subsequent analysis
+NOTE: ENSSSAT00000150375|salmo-salar is identical to ENSCART00000013087|carassius-auratus but kept for subsequent analysis
+NOTE: ENSAMXT00000009066|astyanax-mexicanus is identical to ENSHHUT00000047966|hucho-hucho but kept for subsequent analysis
+NOTE: ENSDCDT00000064201|denticeps-clupeoides is identical to ENSDCDT00000024226|denticeps-clupeoides but kept for subsequent analysis
+NOTE: ENSSMRT00000010339|salvator-merianae is identical to ENSACAT00000017152|anolis-carolinensis but kept for subsequent analysis
+NOTE: ISCW019096-RA|ixodes-scapularis is identical to ISCI019096-RA|ixodes-scapularis but kept for subsequent analysis
+NOTE: ENSSFOT00015021436|scleropages-formosus is identical to ENSPKIT00000015627|paramormyrops-kingsleyae but kept for subsequent analysis
+NOTE: ENSOMET00000014785|oryzias-melastigma is identical to ENSSAUT00010024691|sparus-aurata but kept for subsequent analysis
+NOTE: ENSNSUT00000010907|notechis-scutatus is identical to ENSPTXT00000024753|pseudonaja-textilis but kept for subsequent analysis
+NOTE: ENSCART00000094048|carassius-auratus is identical to ENSCART00000005111|carassius-auratus but kept for subsequent analysis
+NOTE: ENSODET00000004981|octodon-degus is identical to ENSCPOT00000040646|cavia-porcellus but kept for subsequent analysis
+NOTE: ASTE007675-RA|anopheles-stephensi is identical to ASTEI03971-RA|anopheles-stephensi but kept for subsequent analysis
+NOTE: AALF004456-RA|aedes-albopictus is identical to AALF019902-RA|aedes-albopictus but kept for subsequent analysis
+NOTE: FBtr0146275|drosophila-grimshawi is identical to FBtr0160431|drosophila-grimshawi but kept for subsequent analysis
+NOTE: XM_026441186|apis-mellifera is identical to BIMP24565-RA|bombus-impatiens but kept for subsequent analysis
+NOTE: FBtr0364449|drosophila-simulans is identical to FBtr0144619|drosophila-erecta but kept for subsequent analysis
+NOTE: KNC29808|lucilia-cuprina is identical to SCAU009100-RB|stomoxys-calcitrans but kept for subsequent analysis
+NOTE: GFUI049346-RA|glossina-fuscipes is identical to GPAI006338-RA|glossina-pallidipes but kept for subsequent analysis
+NOTE: AMEM013246-RA|anopheles-merus is identical to ACOM029430-RA|anopheles-coluzzii but kept for subsequent analysis
+NOTE: Mdes007537-RA|mayetiola-destructor is identical to Mdes007541-RA|mayetiola-destructor but kept for subsequent analysis
+NOTE: FBtr0281307|drosophila-pseudoobscura is identical to FBtr0184075|drosophila-persimilis but kept for subsequent analysis
+NOTE: ENSPNYT00000016152|pundamilia-nyererei is identical to ENSNBRT00000018513|neolamprologus-brichardi but kept for subsequent analysis
+NOTE: ASIS010121-RA|anopheles-sinensis is identical to ASIC008595-RA|anopheles-sinensis but kept for subsequent analysis
+NOTE: ENSUMAT00000017646|ursus-maritimus is identical to ENSCAFT00020002569|canis-lupus but kept for subsequent analysis
+NOTE: 128 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: ENSVURT00010025128|vombatus-ursinus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSSPUT00000012709|sphenodon-punctatus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSJJAT00000028314|jaculus-jaculus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSFALT00000006527|ficedula-albicollis (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSTGUT00000014126|taeniopygia-guttata (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSSCAT00000025795|serinus-canaria (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSUPAT00010018893|urocitellus-parryii (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSSCUT00000031718|struthio-camelus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSPVAT00000011933|pteropus-vampyrus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSSSCT00000042237|sus-scrofa (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSAPLT00000010520|anas-platyrhynchos (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSPMJT00000020918|parus-major (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSPSIT00000015758|pelodiscus-sinensis (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSCSAT00000001916|chlorocebus-sabaeus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSABRT00000024907|anser-brachyrhynchus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSDNOT00000015220|dasypus-novemcinctus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: MGP_SPRETEiJ_T0084171|mus-spretus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSLAFT00000011753|loxodonta-africana (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSOANT00000021408|ornithorhynchus-anatinus (identical to ENSGALT00000068177|gallus-gallus) is ignored but added at the end
+NOTE: ENSACCT00020015393|aquila-chrysaetos (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSDORT00000008133|dipodomys-ordii (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMMMT00000012243|marmota-marmota (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSNGAT00000017161|nannospalax-galili (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMUST00000205276|mus-musculus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: MGP_CAROLIEiJ_T0080799|mus-caroli (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPCOT00000028857|propithecus-coquereli (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: MGP_PahariEiJ_T0017638|mus-pahari (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMAUT00000023483|mesocricetus-auratus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPEMT00000032419|peromyscus-maniculatus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMOCT00000010444|microtus-ochrogaster (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSCGRT00001024346|cricetulus-griseus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSCHYT00000009186|cervus-hanglu (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSRNOT00000043788|rattus-norvegicus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSRFET00010031674|rhinolophus-ferrumequinum (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSOGAT00000011439|otolemur-garnettii (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMMST00000002562|moschus-moschiferus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMLUT00000012321|myotis-lucifugus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMSIT00000040554|mus-spicilegus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMICT00000054804|microcebus-murinus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSSVLT00005032604|sciurus-vulgaris (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSTSYT00000047725|carlito-syrichta (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPSMT00000012614|prolemur-simus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSDLET00000004627|delphinapterus-leucas (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSCWAT00000002171|catagonus-wagneri (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSOART00020010257|ovis-aries (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSSTOT00000032503|ictidomys-tridecemlineatus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSCHIT00000023503|capra-hircus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMMNT00015028888|monodon-monoceros (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPSNT00000008280|phocoena-sinus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPCTT00005017417|physeter-catodon (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSBIXT00005006139|bos-indicus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSBMST00010009537|balaenoptera-musculus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPLOT00000008422|panthera-leo (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPPRT00000007964|panthera-pardus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPTIT00000025953|panthera-tigris (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSVVUT00000044361|vulpes-vulpes (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSECAT00000040922|equus-caballus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPCIT00000018009|phascolarctos-cinereus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSBGRT00000033119|bos-grunniens (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSBTAT00000014362|bos-taurus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSBBBT00000026463|bison-bison (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSSBOT00000055755|saimiri-boliviensis (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSFCAT00000049304|felis-catus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSRBIT00000046461|rhinopithecus-bieti (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSRROT00000056963|rhinopithecus-roxellana (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSNVIT00000000553|neovison-vison (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMFAT00000003375|macaca-fascicularis (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMMUT00000031506|macaca-mulatta (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMNET00000061615|macaca-nemestrina (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMPUT00000008838|mustela-putorius (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSNLET00000050222|nomascus-leucogenys (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPTRT00000090655|pan-troglodytes (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENST00000524767|homo-sapiens (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSGGOT00000062843|gorilla-gorilla (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSCATT00000042846|cercocebus-atys (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSMLET00000061057|mandrillus-leucophaeus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSPANT00000029269|papio-anubis (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSANAT00000058796|aotus-nancymaae (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSAMET00000018600|ailuropoda-melanoleuca (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSCJAT00000029729|callithrix-jacchus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSCAFT00000092376|canis-lupus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSCDRT00005006938|camelus-dromedarius (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSOCUT00000054357|oryctolagus-cuniculus (identical to ENSPPAT00000053881|pan-paniscus) is ignored but added at the end
+NOTE: ENSSLDT00000004650|seriola-lalandi (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSSDUT00000011441|seriola-dumerili (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSSLUT00000015271|sander-lucioperca (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSMAMT00000064816|mastacembelus-armatus (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSCLMT00005032802|cyclopterus-lumpus (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSPLAT00000001158|poecilia-latipinna (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSAPET00000016612|amphiprion-percula (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSACLT00000035503|astatotilapia-calliptera (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSLCRT00005000292|larimichthys-crocea (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSLCAT00010020630|lates-calcarifer (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSPFOT00000003561|poecilia-formosa (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSHBUT00000019394|haplochromis-burtoni (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSPRET00000021627|poecilia-reticulata (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSGMOT00000073813|gadus-morhua (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSATET00000034165|anabas-testudineus (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSDLAT00005048591|dicentrarchus-labrax (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSONIT00000075196|oreochromis-niloticus (identical to ENSAOCT00000010928|amphiprion-ocellaris) is ignored but added at the end
+NOTE: ENSSTUT00000016933|salmo-trutta (identical to ENSCART00000013087|carassius-auratus) is ignored but added at the end
+NOTE: ENSIPUT00000013316|ictalurus-punctatus (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSSTUT00000086383|salmo-trutta (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSSSAT00000105582|salmo-salar (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSLOCT00000005804|lepisosteus-oculatus (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSPNAT00000019267|pygocentrus-nattereri (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSOMYT00000074236|oncorhynchus-mykiss (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSHHUT00000085543|hucho-hucho (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSOTST00005032911|oncorhynchus-tshawytscha (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSOTST00005046679|oncorhynchus-tshawytscha (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSOTST00005069908|oncorhynchus-tshawytscha (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSOKIT00005075728|oncorhynchus-kisutch (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSCHAT00000023091|clupea-harengus (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSOKIT00005075497|oncorhynchus-kisutch (identical to ENSHHUT00000047966|hucho-hucho) is ignored but added at the end
+NOTE: ENSOJAT00000044007|oryzias-javanicus (identical to ENSSAUT00010024691|sparus-aurata) is ignored but added at the end
+NOTE: ENSORLT00000029784|oryzias-latipes (identical to ENSSAUT00010024691|sparus-aurata) is ignored but added at the end
+NOTE: ENSKMAT00000017153|kryptolebias-marmoratus (identical to ENSSAUT00010024691|sparus-aurata) is ignored but added at the end
+NOTE: ENSNNAT00000016103|naja-naja (identical to ENSPTXT00000024753|pseudonaja-textilis) is ignored but added at the end
+NOTE: ENSHGLT00000009098|heterocephalus-glaber (identical to ENSCPOT00000040646|cavia-porcellus) is ignored but added at the end
+NOTE: ENSCLAT00000023094|chinchilla-lanigera (identical to ENSCPOT00000040646|cavia-porcellus) is ignored but added at the end
+NOTE: AAEL002369-RA|aedes-aegypti (identical to AALF019902-RA|aedes-albopictus) is ignored but added at the end
+NOTE: FBtr0077869|drosophila-melanogaster (identical to FBtr0144619|drosophila-erecta) is ignored but added at the end
+NOTE: GPPI007699-RA|glossina-palpalis (identical to GPAI006338-RA|glossina-pallidipes) is ignored but added at the end
+NOTE: GAUT018966-RA|glossina-austeni (identical to GPAI006338-RA|glossina-pallidipes) is ignored but added at the end
+NOTE: GBRI023069-RA|glossina-brevipalpis (identical to GPAI006338-RA|glossina-pallidipes) is ignored but added at the end
+NOTE: AARA016458-RA|anopheles-arabiensis (identical to ACOM029430-RA|anopheles-coluzzii) is ignored but added at the end
+NOTE: AGAP010006-RA|anopheles-gambiae (identical to ACOM029430-RA|anopheles-coluzzii) is ignored but added at the end
+NOTE: ACON010006-RA|anopheles-coluzzii (identical to ACOM029430-RA|anopheles-coluzzii) is ignored but added at the end
+Alignment was printed to HMM/ent_domains.msa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to HMM/ent_domains.msa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.034 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -4250.709
+Optimal log-likelihood: -4250.442
+Proportion of invariable sites: 0.036
+Gamma shape alpha: 0.985
+Parameters optimization took 1 rounds (0.529 sec)
+Time for fast ML tree search: 7.781 seconds
+
+NOTE: ModelFinder requires 24 MB RAM!
+ModelFinder will test up to 260 protein models (sample size: 94) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            4527.814     297 9649.627     186661.627   10404.986
+  2  LG+I          4500.662     298 9597.325     187801.325   10355.227
+  3  LG+G4         4250.225     298 9096.450     187300.450   9854.352
+  4  LG+I+G4       4250.275     299 9098.549     188498.549   9858.995
+  5  LG+R2         4284.720     299 9167.439     188567.439   9927.884
+  6  LG+R3         4251.344     301 9104.689     190908.689   9870.221
+  7  LG+R4         4243.545     303 9093.090     193317.090   9863.708
+  8  LG+R5         4243.354     305 9096.709     195756.709   9872.414
+ 16  LG+F+G4       4332.768     317 9299.535     210911.535   10105.759
+ 17  LG+F+I+G4     4332.831     318 9301.662     212185.662   10110.430
+ 20  LG+F+R4       4325.004     322 9294.008     217306.008   10112.948
+ 29  WAG+G4        4320.190     298 9236.381     187440.381   9994.283
+ 30  WAG+I+G4      4319.655     299 9237.311     188637.311   9997.756
+ 33  WAG+R4        4309.452     303 9224.905     193448.905   9995.523
+ 42  WAG+F+G4      4403.877     317 9441.753     211053.753   10247.977
+ 43  WAG+F+I+G4    4402.951     318 9441.903     212325.903   10250.670
+ 46  WAG+F+R4      4394.626     322 9433.252     217445.252   10252.193
+ 55  JTT+G4        4274.135     298 9144.270     187348.270   9902.172
+ 56  JTT+I+G4      4274.058     299 9146.116     188546.116   9906.561
+ 59  JTT+R4        4271.117     303 9148.235     193372.235   9918.853
+ 68  JTT+F+G4      4352.560     317 9339.120     210951.120   10145.344
+ 69  JTT+F+I+G4    4352.464     318 9340.928     212224.928   10149.696
+ 72  JTT+F+R4      4347.059     322 9338.119     217350.119   10157.060
+ 81  Q.pfam+G4     4259.617     298 9115.234     187319.234   9873.135
+ 82  Q.pfam+I+G4   4259.837     299 9117.673     188517.673   9878.118
+ 85  Q.pfam+R4     4252.453     303 9110.905     193334.905   9881.524
+ 94  Q.pfam+F+G4   4328.988     317 9291.977     210903.977   10098.201
+ 95  Q.pfam+F+I+G4 4329.225     318 9294.450     212178.450   10103.218
+ 98  Q.pfam+F+R4   4327.262     322 9298.524     217310.524   10117.465
+107  JTTDCMut+G4   4276.406     298 9148.811     187352.811   9906.713
+108  JTTDCMut+I+G4 4276.286     299 9150.572     188550.572   9911.017
+111  JTTDCMut+R4   4273.110     303 9152.221     193376.221   9922.839
+120  JTTDCMut+F+G4 4355.584     317 9345.167     210957.167   10151.391
+121  JTTDCMut+F+I+G4 4355.451     318 9346.901     212230.901   10155.669
+124  JTTDCMut+F+R4 4349.997     322 9343.994     217355.994   10162.935
+133  DCMut+G4      4355.213     298 9306.427     187510.427   10064.328
+134  DCMut+I+G4    4354.757     299 9307.513     188707.513   10067.958
+137  DCMut+R4      4349.258     303 9304.515     193528.515   10075.133
+146  DCMut+F+G4    4423.059     317 9480.119     211092.119   10286.343
+147  DCMut+F+I+G4  4423.053     318 9482.107     212366.107   10290.875
+150  DCMut+F+R4    4419.882     322 9483.763     217495.763   10302.704
+159  VT+G4         4325.275     298 9246.551     187450.551   10004.453
+160  VT+I+G4       4325.150     299 9248.299     188648.299   10008.744
+163  VT+R4         4316.183     303 9238.367     193462.367   10008.985
+172  VT+F+G4       4406.686     317 9447.371     211059.371   10253.596
+173  VT+F+I+G4     4406.486     318 9448.972     212332.972   10257.740
+176  VT+F+R4       4398.370     322 9440.741     217452.741   10259.682
+185  PMB+G4        4363.638     298 9323.276     187527.276   10081.178
+186  PMB+I+G4      4363.765     299 9325.529     188725.529   10085.975
+189  PMB+R4        4354.060     303 9314.119     193538.119   10084.738
+198  PMB+F+G4      4466.896     317 9567.793     211179.793   10374.017
+199  PMB+F+I+G4    4467.022     318 9570.044     212454.044   10378.811
+202  PMB+F+R4      4456.184     322 9556.367     217568.367   10375.308
+211  Blosum62+G4   4368.861     298 9333.722     187537.722   10091.624
+212  Blosum62+I+G4 4368.809     299 9335.619     188735.619   10096.064
+215  Blosum62+R4   4358.528     303 9323.057     193547.057   10093.675
+224  Blosum62+F+G4 4475.978     317 9585.956     211197.956   10392.180
+225  Blosum62+F+I+G4 4475.377     318 9586.754     212470.754   10395.522
+228  Blosum62+F+R4 4464.783     322 9573.566     217585.566   10392.507
+237  Dayhoff+G4    4354.651     298 9305.302     187509.302   10063.204
+238  Dayhoff+I+G4  4354.211     299 9306.422     188706.422   10066.868
+241  Dayhoff+R4    4348.660     303 9303.320     193527.320   10073.938
+250  Dayhoff+F+G4  4422.676     317 9479.352     211091.352   10285.576
+251  Dayhoff+F+I+G4 4422.669     318 9481.338     212365.338   10290.106
+254  Dayhoff+F+R4  4419.505     322 9483.010     217495.010   10301.951
+Akaike Information Criterion:           LG+R4
+Corrected Akaike Information Criterion: LG
+Bayesian Information Criterion:         LG+G4
+Best-fit model: LG+G4 chosen according to BIC
+
+All model information printed to HMM/ent_domains.msa.model.gz
+CPU time for ModelFinder: 330.147 seconds (0h:5m:30s)
+Wall-clock time for ModelFinder: 330.570 seconds (0h:5m:30s)
+Generating 1000 samples for ultrafast bootstrap (seed: 49505)...
+
+NOTE: 10 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4250.225
+Optimal log-likelihood: -4250.224
+Gamma shape alpha: 0.913
+Parameters optimization took 1 rounds (0.542 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 3.281953 sec (of wall-clock time) 3.281502 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.003376 sec (of wall-clock time) 0.005999 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4313.155
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.965 second
+Computing log-likelihood of 98 initial trees ... 16.986 seconds
+Current best score: -4250.224
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4250.224
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -4244.105
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -4238.031
+Iteration 10 / LogL: -4248.017 / Time: 0h:1m:55s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -4229.047
+Iteration 20 / LogL: -4244.596 / Time: 0h:3m:32s
+Finish initializing candidate tree set (20)
+Current best tree score: -4229.047 / CPU time: 205.490
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -4225.250
+Iteration 30 / LogL: -4243.245 / Time: 0h:5m:7s (0h:17m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -4224.395
+Iteration 40 / LogL: -4235.546 / Time: 0h:6m:37s (0h:16m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -4223.962
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -4221.412
+Iteration 50 / LogL: -4223.847 / Time: 0h:7m:59s (0h:15m:39s left)
+Log-likelihood cutoff on original alignment: -4297.626
+Iteration 60 / LogL: -4227.422 / Time: 0h:9m:27s (0h:13m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -4219.117
+Iteration 70 / LogL: -4225.150 / Time: 0h:10m:53s (0h:15m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -4217.973
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -4216.427
+Iteration 80 / LogL: -4219.751 / Time: 0h:12m:15s (0h:15m:21s left)
+Iteration 90 / LogL: -4218.520 / Time: 0h:13m:46s (0h:13m:46s left)
+Iteration 100 / LogL: -4269.664 / Time: 0h:15m:16s (0h:12m:11s left)
+Log-likelihood cutoff on original alignment: -4297.626
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -4220.132 / Time: 0h:16m:41s (0h:13m:46s left)
+Iteration 120 / LogL: -4219.464 / Time: 0h:18m:24s (0h:12m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 128: -4215.706
+Iteration 130 / LogL: -4219.995 / Time: 0h:20m:6s (0h:15m:16s left)
+Iteration 140 / LogL: -4217.667 / Time: 0h:21m:26s (0h:13m:34s left)
+Iteration 150 / LogL: -4221.822 / Time: 0h:22m:37s (0h:11m:50s left)
+Log-likelihood cutoff on original alignment: -4297.626
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 157: -4215.595
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 158: -4215.243
+Iteration 160 / LogL: -4220.392 / Time: 0h:24m:2s (0h:14m:48s left)
+Iteration 170 / LogL: -4215.347 / Time: 0h:25m:36s (0h:13m:19s left)
+Iteration 180 / LogL: -4228.293 / Time: 0h:26m:49s (0h:11m:41s left)
+Iteration 190 / LogL: -4217.387 / Time: 0h:28m:12s (0h:10m:8s left)
+Iteration 200 / LogL: -4221.164 / Time: 0h:29m:42s (0h:8m:39s left)
+Log-likelihood cutoff on original alignment: -4297.626
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 210 / LogL: -4219.966 / Time: 0h:31m:6s (0h:13m:23s left)
+Iteration 220 / LogL: -4218.805 / Time: 0h:32m:38s (0h:11m:55s left)
+Iteration 230 / LogL: -4247.367 / Time: 0h:34m:3s (0h:10m:24s left)
+Iteration 240 / LogL: -4224.091 / Time: 0h:35m:19s (0h:8m:52s left)
+Iteration 250 / LogL: -4218.829 / Time: 0h:36m:46s (0h:7m:22s left)
+Log-likelihood cutoff on original alignment: -4297.626
+BETTER TREE FOUND at iteration 251: -4215.243
+Iteration 260 / LogL: -4225.840 / Time: 0h:38m:8s (0h:13m:23s left)
+Iteration 270 / LogL: -4219.727 / Time: 0h:39m:25s (0h:11m:52s left)
+Iteration 280 / LogL: -4216.627 / Time: 0h:40m:43s (0h:10m:21s left)
+Iteration 290 / LogL: -4216.299 / Time: 0h:41m:57s (0h:8m:51s left)
+Iteration 300 / LogL: -4219.436 / Time: 0h:43m:20s (0h:7m:23s left)
+Log-likelihood cutoff on original alignment: -4297.626
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 310 / LogL: -4236.502 / Time: 0h:44m:47s (0h:13m:2s left)
+Iteration 320 / LogL: -4215.243 / Time: 0h:46m:10s (0h:11m:34s left)
+Iteration 330 / LogL: -4216.663 / Time: 0h:47m:35s (0h:10m:7s left)
+Iteration 340 / LogL: -4215.243 / Time: 0h:49m:1s (0h:8m:40s left)
+Iteration 350 / LogL: -4219.075 / Time: 0h:50m:21s (0h:7m:12s left)
+Log-likelihood cutoff on original alignment: -4297.626
+TREE SEARCH COMPLETED AFTER 352 ITERATIONS / Time: 0h:50m:40s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4215.243
+Optimal log-likelihood: -4215.243
+Gamma shape alpha: 0.938
+Parameters optimization took 1 rounds (0.754 sec)
+BEST SCORE FOUND : -4215.243
+Creating bootstrap support values...
+Split supports printed to NEXUS file HMM/ent_domains.msa.splits.nex
+Total tree length: 17.006
+
+Total number of iterations: 352
+CPU time used for tree search: 3024.742 sec (0h:50m:24s)
+Wall-clock time used for tree search: 3033.888 sec (0h:50m:33s)
+Total CPU time used: 3033.595 sec (0h:50m:33s)
+Total wall-clock time used: 3042.768 sec (0h:50m:42s)
+
+Computing bootstrap consensus tree...
+Reading input file HMM/ent_domains.msa.splits.nex...
+150 taxa and 3766 splits.
+Consensus tree written to HMM/ent_domains.msa.contree
+Reading input trees file HMM/ent_domains.msa.contree
+Log-likelihood of consensus tree: -4217.187
+
+Analysis results written to: 
+  IQ-TREE report:                HMM/ent_domains.msa.iqtree
+  Maximum-likelihood tree:       HMM/ent_domains.msa.treefile
+  Likelihood distances:          HMM/ent_domains.msa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          HMM/ent_domains.msa.splits.nex
+  Consensus tree:                HMM/ent_domains.msa.contree
+  Screen log file:               HMM/ent_domains.msa.log
+
+Date and Time: Sat Nov 13 15:20:05 2021

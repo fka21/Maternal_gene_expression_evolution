@@ -1,0 +1,379 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fritzen.sars.no (SSE4.2, 1009 GB RAM)
+Command: iqtree2 -s zf_nanos_hits_reformat_RMDupl.msa -ntmax 5 -msub nuclear -bb 1000
+Seed:    104089 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 12 11:53:29 2021
+Kernel:  SSE2 - 1 threads (32 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 32 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file zf_nanos_hits_reformat_RMDupl.msa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 121 sequences with 81 columns, 75 distinct patterns
+48 parsimony-informative, 14 singleton sites, 19 constant sites
+                                            Gap/Ambiguity  Composition  p-value
+   1  tetur24g00310.1|tetranychus-urticae          32.10%    passed     80.43%
+   2  TriadT9546|trichoplax-adhaerens              34.57%    passed     99.21%
+   3  KDR08624|zootermopsis-nevadensis             33.33%    passed     91.46%
+   4  LotgiT102354|lottia-gigantea                 34.57%    passed     99.05%
+   5  NM_001134922|nasonia-vitripennis             34.57%    passed     21.04%
+   6  XM_012207725.1|atta-cephalotes               34.57%    passed     96.85%
+   7  CapteT104663|capitella-teleta                33.33%    passed     97.37%
+   8  HMIM007242-RA|hofstenia-miamia               33.33%    passed     96.42%
+   9  MCINX010986-RA|melitaea-cinxia               33.33%    passed     91.15%
+  10  HelroT147488|helobdella-robusta              34.57%    passed     87.66%
+  11  Smp_055740.1|schistosoma-mansoni             33.33%    passed     95.39%
+  12  CLYHEMT003147.1|clytia-hemisphaerica         33.33%    passed     98.98%
+  13  PCA25350.1|priapulus-caudatus                33.33%    passed     99.42%
+  14  HMIM017907-RA|hofstenia-miamia               33.33%    passed     98.56%
+  15  HMIM010135-RA|hofstenia-miamia               33.33%    passed     99.41%
+  16  EKC37179|crassostrea-gigas                   33.33%    passed     99.99%
+  17  Ttra013696t1|terebratalia-transversa         33.33%    passed     99.55%
+  18  BIMP15531-RA|bombus-impatiens                33.33%    passed     98.34%
+  19  XM_003397315.3|bombus-terrestris             33.33%    passed     98.34%
+  20  GSADVT00014479001|adineta-vaga               34.57%    passed     60.15%
+  21  GSADVT00062277001|adineta-vaga               34.57%    passed     60.15%
+  22  XM_011161276|solenopsis-invicta              33.33%    passed     98.23%
+  23  Aqu2.1.39257_001|amphimedon-queenslandica    33.33%    passed     99.33%
+  24  XM_011161445|solenopsis-invicta              33.33%    passed     93.42%
+  25  EGACTEQ4350038034-RA|actinia-equina          33.33%    passed     99.43%
+  26  EDO45112|nematostella-vectensis              33.33%    passed     98.55%
+  27  SMAR000830-RA|strigamia-maritima             34.57%    passed     97.90%
+  28  EGACTEQ4350025394-RA|actinia-equina          33.33%    passed     99.85%
+  29  BGLB037157-RA|biomphalaria-glabrata          34.57%    passed     76.33%
+  30  Ttra010320t1|terebratalia-transversa         34.57%    passed     99.84%
+  31  GSADVT00056918001|adineta-vaga               34.57%    passed     88.50%
+  32  CLYHEMT015640.1|clytia-hemisphaerica         33.33%    passed     91.73%
+  33  XM_026442020|apis-mellifera                  33.33%    passed     99.80%
+  34  BGIBMGA005410-RA|bombyx-mori                 33.33%    passed     90.42%
+  35  GSADVT00004547001|adineta-vaga               34.57%    passed     88.50%
+  36  TCAL_04154-PA_mrna|tigriopus-californicus    33.33%    passed     89.13%
+  37  XM_026141878|solenopsis-invicta              33.33%    passed     70.03%
+  38  BL24432_evm0|branchiostoma-lanceolatum       33.33%    passed     84.88%
+  39  Ocbimv22006876m|octopus-bimaculoides         34.57%    passed     27.33%
+  40  g10776.t1|lingula-anatina                    33.33%    passed     92.26%
+  41  BGLB037251-RA|biomphalaria-glabrata          34.57%    passed     83.32%
+  42  XM_030985969|strongylocentrotus-purpuratus   33.33%    passed     96.68%
+  43  tetur10g01460.1|tetranychus-urticae          34.57%    passed     98.65%
+  44  DPOGS200520-TA|danaus-plexippus              33.33%    passed     86.89%
+  45  DPOGS201683-TA|danaus-plexippus              33.33%    passed     86.89%
+  46  EKC40482|crassostrea-gigas                   34.57%    passed     80.61%
+  47  EKC27322|crassostrea-gigas                   34.57%    passed     96.54%
+  48  FBtr0239461|drosophila-virilis               33.33%    passed     99.96%
+  49  AMIN009941-RA|anopheles-minimus              34.57%    passed     99.28%
+  50  Ocbimv22002196m|octopus-bimaculoides         34.57%    passed     85.32%
+  51  FBtr0174282|drosophila-mojavensis            33.33%    passed     99.26%
+  52  XM_030971957|strongylocentrotus-purpuratus   33.33%    passed     98.85%
+  53  CLEC009623-RA|cimex-lectularius              34.57%    passed     67.54%
+  54  FBtr0154518|drosophila-grimshawi             33.33%    passed     99.92%
+  55  GAUT020287-RA|glossina-austeni               33.33%    passed     99.97%
+  56  BGIBMGA005417-RA|bombyx-mori                 33.33%    passed     75.41%
+  57  ACYPI43056-RA|acyrthosiphon-pisum            33.33%    passed     96.30%
+  58  GPPI024596-RA|glossina-palpalis              33.33%    passed     99.97%
+  59  IU25_08190-mRNA-1|belgica-antarctica         33.33%    passed     98.76%
+  60  ML22086a-RA|mnemiopsis-leidyi                33.33%    passed     79.31%
+  61  DPOGS201677-TA|danaus-plexippus              34.57%    passed     81.72%
+  62  AGLA000998-RA|anoplophora-glabripennis       34.57%    passed     79.32%
+  63  KFM68153|stegodyphus-mimosarum               34.57%    passed     82.29%
+  64  g10948.t1|lingula-anatina                    35.80%    passed     99.55%
+  65  ISCI024692-RA|ixodes-scapularis              32.10%    passed     99.95%
+  66  DTIU012145-RA|dinothrombium-tinctorium       32.10%    passed     95.29%
+  67  MCINX005794-RA|melitaea-cinxia               33.33%    passed     66.49%
+  68  ISCW024692-RA|ixodes-scapularis              32.10%    passed     99.95%
+  69  AEPI000579-RA|anopheles-epiroticus           34.57%    passed     98.82%
+  70  FBtr0083732|drosophila-melanogaster          33.33%    passed     98.20%
+  71  FBtr0209810|drosophila-sechellia             33.33%    passed     98.20%
+  72  MESCA000648-RA|megaselia-scalaris            33.33%    passed     93.42%
+  73  IU25_08189-mRNA-1|belgica-antarctica         33.33%    passed     99.43%
+  74  FBtr0351812|drosophila-simulans              33.33%    passed     98.20%
+  75  FBtr0380189|drosophila-pseudoobscura         33.33%    passed     97.46%
+  76  FBtr0143206|drosophila-erecta                33.33%    passed     98.90%
+  77  FBtr0272103|drosophila-yakuba                33.33%    passed     98.90%
+  78  BGIBMGA002187-RA|bombyx-mori                 33.33%    failed      0.23%
+  79  TCAL0286-PA_mrna|tigriopus-californicus      34.57%    passed     97.56%
+  80  tetur01g00050.1|tetranychus-urticae          33.33%    passed     97.74%
+  81  PPAI008560-RA|phlebotomus-papatasi           33.33%    passed     95.00%
+  82  DPOGS211438-TA|danaus-plexippus              35.80%    passed     11.93%
+  83  KNC33183|lucilia-cuprina                     33.33%    passed     99.96%
+  84  EMLSAT00000005967|lepeophtheirus-salmonis    32.10%    passed     62.73%
+  85  GSADVT00060263001|adineta-vaga               34.57%    passed     97.86%
+  86  FBtr0383542|drosophila-ananassae             33.33%    passed     99.53%
+  87  GSADVT00005333001|adineta-vaga               34.57%    passed     97.86%
+  88  EKC30231|crassostrea-gigas                   34.57%    passed     99.33%
+  89  SCAU003639-RA|stomoxys-calcitrans            33.33%    passed     99.91%
+  90  AFUN005455-RA|anopheles-funestus             34.57%    passed     98.54%
+  91  DTIU001447-RA|dinothrombium-tinctorium       32.10%    passed     69.86%
+  92  ACYPI27888-RA|acyrthosiphon-pisum            34.57%    passed     99.93%
+  93  MDOA000368-RA|musca-domestica                33.33%    passed     99.83%
+  94  FBtr0415802|drosophila-willistoni            33.33%    passed     99.93%
+  95  AARA007424-RA|anopheles-arabiensis           34.57%    passed     94.64%
+  96  KII70050|thelohanellus-kitauei               35.80%    passed     55.56%
+  97  AMEC017637-RA|anopheles-melas                34.57%    passed     95.05%
+  98  AALF005887-RA|aedes-albopictus               33.33%    passed     58.03%
+  99  AGAP006098-RA|anopheles-gambiae              34.57%    passed     95.05%
+ 100  ACOM024663-RA|anopheles-coluzzii             34.57%    passed     95.05%
+ 101  Smp_051920.2|schistosoma-mansoni             34.57%    passed     96.63%
+ 102  AMEM000725-RA|anopheles-merus                34.57%    passed     95.05%
+ 103  AQUA011650-RA|anopheles-quadriannulatus      34.57%    passed     95.05%
+ 104  ACHR000298-RA|anopheles-christyi             34.57%    passed     99.99%
+ 105  EKC40750|crassostrea-gigas                   34.57%    passed     99.33%
+ 106  AAEL012107-RA|aedes-aegypti                  33.33%    passed     82.47%
+ 107  EDO49152|nematostella-vectensis              29.63%    passed     93.21%
+ 108  GSADVT00049658001|adineta-vaga               34.57%    passed     98.42%
+ 109  ISCI004755-RA|ixodes-scapularis              30.86%    passed     48.17%
+ 110  ISCW004755-RA|ixodes-scapularis              30.86%    passed     48.17%
+ 111  ASTE016369-RA|anopheles-stephensi            33.33%    passed     54.40%
+ 112  DTIU001145-RA|dinothrombium-tinctorium       33.33%    passed     57.03%
+ 113  R03D7.7.1|caenorhabditis-elegans             19.75%    passed     52.34%
+ 114  CBG20913.1|caenorhabditis-briggsae           19.75%    passed      7.77%
+ 115  EFX73956|daphnia-pulex                       33.33%    passed     82.80%
+ 116  PPA18529|pristionchus-pacificus              23.46%    passed     42.18%
+ 117  CJA04811|caenorhabditis-japonica             33.33%    passed     10.45%
+ 118  CBG01040.1|caenorhabditis-briggsae           33.33%    passed     10.80%
+ 119  CBN29447|caenorhabditis-brenneri             33.33%    failed      2.23%
+ 120  CRE05178|caenorhabditis-remanei              33.33%    passed     14.68%
+ 121  ZK1127.1.1|caenorhabditis-elegans            41.98%    failed      3.91%
+****  TOTAL                                        33.44%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: XM_003397315.3|bombus-terrestris is identical to BIMP15531-RA|bombus-impatiens but kept for subsequent analysis
+NOTE: GSADVT00062277001|adineta-vaga is identical to GSADVT00014479001|adineta-vaga but kept for subsequent analysis
+NOTE: GSADVT00004547001|adineta-vaga is identical to GSADVT00056918001|adineta-vaga but kept for subsequent analysis
+NOTE: DPOGS201683-TA|danaus-plexippus is identical to DPOGS200520-TA|danaus-plexippus but kept for subsequent analysis
+NOTE: GPPI024596-RA|glossina-palpalis is identical to GAUT020287-RA|glossina-austeni but kept for subsequent analysis
+NOTE: ISCW024692-RA|ixodes-scapularis is identical to ISCI024692-RA|ixodes-scapularis but kept for subsequent analysis
+NOTE: FBtr0209810|drosophila-sechellia is identical to FBtr0083732|drosophila-melanogaster but kept for subsequent analysis
+NOTE: FBtr0272103|drosophila-yakuba is identical to FBtr0143206|drosophila-erecta but kept for subsequent analysis
+NOTE: GSADVT00005333001|adineta-vaga is identical to GSADVT00060263001|adineta-vaga but kept for subsequent analysis
+NOTE: EKC40750|crassostrea-gigas is identical to EKC30231|crassostrea-gigas but kept for subsequent analysis
+NOTE: AGAP006098-RA|anopheles-gambiae is identical to AMEC017637-RA|anopheles-melas but kept for subsequent analysis
+NOTE: ISCW004755-RA|ixodes-scapularis is identical to ISCI004755-RA|ixodes-scapularis but kept for subsequent analysis
+NOTE: 4 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: FBtr0351812|drosophila-simulans (identical to FBtr0083732|drosophila-melanogaster) is ignored but added at the end
+NOTE: ACOM024663-RA|anopheles-coluzzii (identical to AMEC017637-RA|anopheles-melas) is ignored but added at the end
+NOTE: AMEM000725-RA|anopheles-merus (identical to AMEC017637-RA|anopheles-melas) is ignored but added at the end
+NOTE: AQUA011650-RA|anopheles-quadriannulatus (identical to AMEC017637-RA|anopheles-melas) is ignored but added at the end
+Alignment was printed to zf_nanos_hits_reformat_RMDupl.msa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to zf_nanos_hits_reformat_RMDupl.msa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.033 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -5763.647
+Optimal log-likelihood: -5763.642
+Proportion of invariable sites: 0.073
+Gamma shape alpha: 0.738
+Parameters optimization took 1 rounds (0.359 sec)
+Time for fast ML tree search: 5.468 seconds
+
+NOTE: ModelFinder requires 17 MB RAM!
+ModelFinder will test up to 260 protein models (sample size: 81) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            6225.774     231 12913.549    120097.549   13466.667
+  2  LG+I          6097.368     232 12658.737    120770.737   13214.249
+  3  LG+G4         5769.219     232 12002.439    120114.439   12557.951
+  4  LG+I+G4       5763.643     233 11993.286    121037.286   12551.193
+  5  LG+R2         5901.505     233 12269.010    121313.010   12826.916
+  6  LG+R3         5793.009     235 12056.019    122976.019   12618.715
+  7  LG+R4         5769.028     237 12012.055    124824.055   12579.540
+  8  LG+R5         5765.067     239 12008.133    126728.133   12580.406
+ 16  LG+F+G4       5889.148     251 12280.297    138784.297   12881.304
+ 17  LG+F+I+G4     5882.347     252 12268.695    139780.695   12872.096
+ 29  WAG+G4        5769.382     232 12002.763    120114.763   12558.276
+ 30  WAG+I+G4      5767.463     233 12000.925    121044.925   12558.832
+ 42  WAG+F+G4      5817.545     251 12137.090    138641.090   12738.097
+ 43  WAG+F+I+G4    5814.591     252 12133.183    139645.183   12736.584
+ 55  JTT+G4        5849.992     232 12163.984    120275.984   12719.496
+ 56  JTT+I+G4      5847.910     233 12161.820    121205.820   12719.726
+ 68  JTT+F+G4      5934.850     251 12371.700    138875.700   12972.707
+ 69  JTT+F+I+G4    5930.271     252 12364.541    139876.541   12967.942
+ 81  Q.pfam+G4     5777.618     232 12019.236    120131.236   12574.748
+ 82  Q.pfam+I+G4   5770.940     233 12007.880    121051.880   12565.787
+ 94  Q.pfam+F+G4   5904.013     251 12310.026    138814.026   12911.033
+ 95  Q.pfam+F+I+G4 5896.143     252 12296.287    139808.287   12899.688
+107  JTTDCMut+G4   5848.517     232 12161.033    120273.033   12716.545
+108  JTTDCMut+I+G4 5846.073     233 12158.145    121202.145   12716.052
+120  JTTDCMut+F+G4 5931.253     251 12364.506    138868.506   12965.513
+121  JTTDCMut+F+I+G4 5926.628     252 12357.255    139869.255   12960.656
+133  DCMut+G4      5881.100     232 12226.199    120338.199   12781.711
+134  DCMut+I+G4    5880.354     233 12226.707    121270.707   12784.614
+146  DCMut+F+G4    5898.512     251 12299.025    138803.025   12900.031
+147  DCMut+F+I+G4  5897.641     252 12299.281    139811.281   12902.683
+159  VT+G4         5769.528     232 12003.056    120115.056   12558.568
+160  VT+I+G4       5766.143     233 11998.286    121042.286   12556.193
+172  VT+F+G4       5858.257     251 12218.514    138722.514   12819.521
+173  VT+F+I+G4     5853.358     252 12210.715    139722.715   12814.116
+185  PMB+G4        5774.239     232 12012.477    120124.477   12567.990
+186  PMB+I+G4      5772.783     233 12011.567    121055.567   12569.473
+198  PMB+F+G4      5823.627     251 12149.253    138653.253   12750.260
+199  PMB+F+I+G4    5821.358     252 12146.716    139658.716   12750.117
+211  Blosum62+G4   5769.583     232 12003.167    120115.167   12558.679
+212  Blosum62+I+G4 5767.761     233 12001.522    121045.522   12559.428
+224  Blosum62+F+G4 5826.004     251 12154.008    138658.008   12755.015
+225  Blosum62+F+I+G4 5823.461     252 12150.922    139662.922   12754.323
+237  Dayhoff+G4    5881.644     232 12227.289    120339.289   12782.801
+238  Dayhoff+I+G4  5880.904     233 12227.807    121271.807   12785.714
+250  Dayhoff+F+G4  5899.011     251 12300.021    138804.021   12901.028
+251  Dayhoff+F+I+G4 5898.147     252 12300.293    139812.293   12903.695
+Akaike Information Criterion:           LG+I+G4
+Corrected Akaike Information Criterion: LG
+Bayesian Information Criterion:         LG+I+G4
+Best-fit model: LG+I+G4 chosen according to BIC
+
+All model information printed to zf_nanos_hits_reformat_RMDupl.msa.model.gz
+CPU time for ModelFinder: 111.970 seconds (0h:1m:51s)
+Wall-clock time for ModelFinder: 112.115 seconds (0h:1m:52s)
+Generating 1000 samples for ultrafast bootstrap (seed: 104089)...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.737 / Estimate: 0.000, 0.642 / LogL: -5769.200
+Init pinv, alpha: 0.026, 0.737 / Estimate: 0.071, 0.735 / LogL: -5763.642
+Init pinv, alpha: 0.052, 0.737 / Estimate: 0.070, 0.735 / LogL: -5763.641
+Init pinv, alpha: 0.078, 0.737 / Estimate: 0.074, 0.738 / LogL: -5763.641
+Init pinv, alpha: 0.104, 0.737 / Estimate: 0.075, 0.739 / LogL: -5763.641
+Init pinv, alpha: 0.130, 0.737 / Estimate: 0.076, 0.740 / LogL: -5763.645
+Init pinv, alpha: 0.156, 0.737 / Estimate: 0.074, 0.738 / LogL: -5763.639
+Init pinv, alpha: 0.182, 0.737 / Estimate: 0.074, 0.739 / LogL: -5763.639
+Init pinv, alpha: 0.209, 0.737 / Estimate: 0.075, 0.738 / LogL: -5763.639
+Init pinv, alpha: 0.235, 0.737 / Estimate: 0.075, 0.739 / LogL: -5763.641
+Optimal pinv,alpha: 0.074, 0.738 / LogL: -5763.639
+
+Parameters optimization took 9.865 sec
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 2.795343 sec (of wall-clock time) 2.794575 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.001546 sec (of wall-clock time) 0.003999 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5784.524
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.179 second
+Computing log-likelihood of 98 initial trees ... 10.975 seconds
+Current best score: -5763.639
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5762.953
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -5740.481
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -5733.370
+Iteration 10 / LogL: -5743.724 / Time: 0h:1m:9s
+Iteration 20 / LogL: -5751.858 / Time: 0h:2m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -5733.370 / CPU time: 111.776
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -5723.842
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -5722.207
+Iteration 30 / LogL: -5723.942 / Time: 0h:2m:40s (0h:8m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -5720.984
+BETTER TREE FOUND at iteration 35: -5720.982
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -5706.722
+Iteration 40 / LogL: -5708.305 / Time: 0h:3m:19s (0h:8m:16s left)
+Iteration 50 / LogL: -5724.242 / Time: 0h:3m:56s (0h:6m:59s left)
+Log-likelihood cutoff on original alignment: -5783.276
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -5705.236
+Iteration 60 / LogL: -5707.649 / Time: 0h:4m:33s (0h:7m:20s left)
+Iteration 70 / LogL: -5713.382 / Time: 0h:5m:8s (0h:6m:19s left)
+Iteration 80 / LogL: -5706.845 / Time: 0h:5m:43s (0h:5m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 87: -5699.252
+Iteration 90 / LogL: -5718.316 / Time: 0h:6m:18s (0h:6m:52s left)
+Iteration 100 / LogL: -5701.593 / Time: 0h:6m:52s (0h:6m:2s left)
+Log-likelihood cutoff on original alignment: -5783.276
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 105: -5698.103
+Iteration 110 / LogL: -5700.912 / Time: 0h:7m:26s (0h:6m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -5697.612
+Iteration 120 / LogL: -5710.680 / Time: 0h:8m:3s (0h:6m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 124: -5697.447
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 127: -5696.282
+Iteration 130 / LogL: -5697.519 / Time: 0h:8m:41s (0h:6m:32s left)
+BETTER TREE FOUND at iteration 131: -5696.279
+Iteration 140 / LogL: -5702.026 / Time: 0h:9m:18s (0h:6m:5s left)
+Iteration 150 / LogL: -5699.911 / Time: 0h:9m:54s (0h:5m:23s left)
+Log-likelihood cutoff on original alignment: -5783.276
+Iteration 160 / LogL: -5700.745 / Time: 0h:10m:32s (0h:4m:42s left)
+Iteration 170 / LogL: -5699.621 / Time: 0h:11m:8s (0h:4m:1s left)
+Iteration 180 / LogL: -5701.105 / Time: 0h:11m:46s (0h:3m:21s left)
+Iteration 190 / LogL: -5719.518 / Time: 0h:12m:25s (0h:2m:41s left)
+Iteration 200 / LogL: -5702.000 / Time: 0h:13m:4s (0h:2m:2s left)
+Log-likelihood cutoff on original alignment: -5783.274
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -5709.200 / Time: 0h:13m:43s (0h:5m:54s left)
+Iteration 220 / LogL: -5710.530 / Time: 0h:14m:18s (0h:5m:13s left)
+Iteration 230 / LogL: -5702.173 / Time: 0h:14m:55s (0h:4m:33s left)
+UPDATE BEST LOG-LIKELIHOOD: -5696.279
+Iteration 240 / LogL: -5697.584 / Time: 0h:15m:29s (0h:3m:53s left)
+Iteration 250 / LogL: -5704.995 / Time: 0h:16m:6s (0h:3m:13s left)
+Log-likelihood cutoff on original alignment: -5783.274
+Iteration 260 / LogL: -5696.386 / Time: 0h:16m:45s (0h:2m:35s left)
+Iteration 270 / LogL: -5696.484 / Time: 0h:17m:23s (0h:1m:56s left)
+Iteration 280 / LogL: -5708.155 / Time: 0h:17m:59s (0h:1m:17s left)
+Iteration 290 / LogL: -5697.707 / Time: 0h:18m:36s (0h:0m:38s left)
+Iteration 300 / LogL: -5707.303 / Time: 0h:19m:13s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -5783.274
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 0h:19m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5696.279
+Optimal log-likelihood: -5696.278
+Proportion of invariable sites: 0.076
+Gamma shape alpha: 0.799
+Parameters optimization took 1 rounds (0.394 sec)
+BEST SCORE FOUND : -5696.278
+Creating bootstrap support values...
+Split supports printed to NEXUS file zf_nanos_hits_reformat_RMDupl.msa.splits.nex
+Total tree length: 45.319
+
+Total number of iterations: 300
+CPU time used for tree search: 1136.751 sec (0h:18m:56s)
+Wall-clock time used for tree search: 1140.414 sec (0h:19m:0s)
+Total CPU time used: 1151.882 sec (0h:19m:11s)
+Total wall-clock time used: 1155.561 sec (0h:19m:15s)
+
+Computing bootstrap consensus tree...
+Reading input file zf_nanos_hits_reformat_RMDupl.msa.splits.nex...
+117 taxa and 2097 splits.
+Consensus tree written to zf_nanos_hits_reformat_RMDupl.msa.contree
+Reading input trees file zf_nanos_hits_reformat_RMDupl.msa.contree
+Log-likelihood of consensus tree: -5696.281
+
+Analysis results written to: 
+  IQ-TREE report:                zf_nanos_hits_reformat_RMDupl.msa.iqtree
+  Maximum-likelihood tree:       zf_nanos_hits_reformat_RMDupl.msa.treefile
+  Likelihood distances:          zf_nanos_hits_reformat_RMDupl.msa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          zf_nanos_hits_reformat_RMDupl.msa.splits.nex
+  Consensus tree:                zf_nanos_hits_reformat_RMDupl.msa.contree
+  Screen log file:               zf_nanos_hits_reformat_RMDupl.msa.log
+
+Date and Time: Fri Nov 12 12:14:37 2021

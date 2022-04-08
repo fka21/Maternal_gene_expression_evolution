@@ -1,0 +1,190 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fritzen.sars.no (SSE4.2, 1009 GB RAM)
+Command: iqtree2 -s discr_mat.phy -T 5 -bb 1000
+Seed:    334079 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Feb  7 12:41:14 2022
+Kernel:  SSE2 - 5 threads (32 CPU cores detected)
+
+Reading alignment file discr_mat.phy ... Phylip format detected
+Alignment most likely contains 5-state morphological data
+Alignment has 43 sequences with 10082 columns, 9434 distinct patterns
+8389 parsimony-informative, 1098 singleton sites, 595 constant sites
+                            Gap/Ambiguity  Composition  p-value
+   1  Anopheles_stephensi          34.10%    failed      0.00%
+   2  Ascaris_suum                 53.73%    failed      0.00%
+   3  Blattella_germanica          58.13%    failed      0.00%
+   4  Bombyx_mori                  36.75%    failed      0.00%
+   5  Bos_taurus                   22.20%    failed      0.00%
+   6  Branchiostoma_lanceolatum    22.48%    failed      0.00%
+   7  Caenorhabditis_angaria       54.43%    failed      0.00%
+   8  Caenorhabditis_elegans       51.67%    failed      0.00%
+   9  Capra_hircus                 22.26%    failed      0.00%
+  10  Ciona_intestinalis           77.22%    failed      0.00%
+  11  Crassostrea_gigas            32.13%    failed      0.00%
+  12  Danio_rerio                  23.01%    failed      0.00%
+  13  Drosophila_ananassae         30.05%    failed      0.00%
+  14  Drosophila_erecta            29.95%    failed      0.00%
+  15  Drosophila_melanogaster      30.19%    failed      0.00%
+  16  Drosophila_mojavensis        30.03%    failed      0.00%
+  17  Drosophila_persimilis        31.19%    failed      0.00%
+  18  Drosophila_simulans          30.11%    failed      0.00%
+  19  Drosophila_virilis           30.12%    failed      0.00%
+  20  Drosophila_willistoni        30.08%    failed      0.00%
+  21  Drosophila_yakuba            30.09%    failed      0.00%
+  22  Gallus_gallus                26.78%    failed      0.00%
+  23  Heliocidaris_erythrogramma   71.55%    failed      0.00%
+  24  Heliocidaris_tuberculata     70.85%    failed      0.00%
+  25  Homo_sapiens                 22.81%    failed      0.00%
+  26  Hypsibius_dujardini          49.10%    failed      0.00%
+  27  Lytechinus_variegatus        71.44%    failed      0.00%
+  28  Macaca_mulatta               23.93%    failed      0.00%
+  29  Mesocentrotus_franciscanus   71.89%    failed      0.00%
+  30  Mnemiopsis_leidyi            81.35%    failed      0.00%
+  31  Montipora_capitata           73.90%    failed      0.00%
+  32  Mus_musculus                 22.11%    failed      0.00%
+  33  Nematostella_vectensis       31.89%    failed      0.00%
+  34  Paracentrotus_lividus        72.17%    failed      0.00%
+  35  Patiria_miniata              82.27%    failed      0.00%
+  36  Platynereis_dumerilii        71.97%    failed      0.00%
+  37  Priapulus_caudatus           28.66%    failed      0.00%
+  38  Steinernema_carpocapsae      67.13%    failed      0.00%
+  39  Steinernema_feltiae          55.31%    failed      0.00%
+  40  Sus_scrofa                   68.35%    failed      0.00%
+  41  Terebratalia_transversa      76.88%    failed      0.00%
+  42  Tribolium_castaneum          31.21%    failed      0.00%
+  43  Xenopus_tropicalis           24.29%    failed      0.00%
+WARNING: 18 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                        45.48%  43 sequences failed composition chi2 test (p-value<5%; df=4)
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.054 seconds, parsimony score: 47083 (based on 9487 sites)
+Perform fast likelihood tree search using MK+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -208302.454
+2. Current log-likelihood: -208299.558
+Optimal log-likelihood: -208299.471
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 1.758
+Parameters optimization took 2 rounds (1.690 sec)
+Time for fast ML tree search: 5.636 seconds
+
+NOTE: ModelFinder requires 198 MB RAM!
+ModelFinder will test up to 13 morphological models (sample size: 10082) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  MK+FQ         202999.438   83  406164.876   406166.270   406764.012
+  2  MK+FQ+I       202978.343   84  406124.686   406126.114   406731.040
+  3  MK+FQ+G4      201874.144   84  403916.287   403917.716   404522.642
+  4  MK+FQ+I+G4    201874.143   85  403918.286   403919.749   404531.859
+  5  MK+FQ+R2      201800.928   85  403771.856   403773.319   404385.430
+  6  MK+FQ+R3      201679.008   87  403532.017   403533.549   404160.027
+  7  MK+FQ+R4      201639.641   89  403457.281   403458.884   404099.728
+  8  MK+FQ+R5      201629.867   91  403441.734   403443.410   404098.618
+  9  MK+FQ+R6      201627.238   93  403440.476   403442.227   404111.797
+Akaike Information Criterion:           MK+FQ+R6
+Corrected Akaike Information Criterion: MK+FQ+R6
+Bayesian Information Criterion:         MK+FQ+R5
+Best-fit model: MK+FQ+R5 chosen according to BIC
+
+All model information printed to discr_mat.phy.model.gz
+CPU time for ModelFinder: 2605.359 seconds (0h:43m:25s)
+Wall-clock time for ModelFinder: 594.994 seconds (0h:9m:54s)
+Generating 1000 samples for ultrafast bootstrap (seed: 334079)...
+
+NOTE: 117 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -201629.867
+Optimal log-likelihood: -201629.762
+Site proportion and rates:  (0.085,0.496) (0.282,0.497) (0.248,0.702) (0.374,1.419) (0.010,11.016)
+Parameters optimization took 1 rounds (2.791 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.028980 sec (of wall-clock time) 0.134980 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.013500 sec (of wall-clock time) 0.022997 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -201369.960
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.627 second
+Computing log-likelihood of 98 initial trees ... 18.747 seconds
+Current best score: -201369.960
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -200981.538
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -200603.105
+Iteration 10 / LogL: -200737.753 / Time: 0h:1m:24s
+Iteration 20 / LogL: -200894.019 / Time: 0h:2m:2s
+Finish initializing candidate tree set (19)
+Current best tree score: -200603.105 / CPU time: 117.082
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -200597.582
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -200570.229
+Iteration 30 / LogL: -200571.035 / Time: 0h:2m:43s (0h:9m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -200569.942
+Iteration 40 / LogL: -200741.254 / Time: 0h:3m:18s (0h:7m:42s left)
+Iteration 50 / LogL: -200578.973 / Time: 0h:3m:44s (0h:6m:11s left)
+Log-likelihood cutoff on original alignment: -200744.405
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -200568.918
+Iteration 60 / LogL: -200572.724 / Time: 0h:4m:17s (0h:5m:9s left)
+Iteration 70 / LogL: -200603.147 / Time: 0h:4m:48s (0h:4m:14s left)
+Iteration 80 / LogL: -200569.226 / Time: 0h:5m:16s (0h:3m:24s left)
+Iteration 90 / LogL: -200588.252 / Time: 0h:5m:47s (0h:2m:40s left)
+Iteration 100 / LogL: -200722.669 / Time: 0h:6m:16s (0h:1m:58s left)
+Log-likelihood cutoff on original alignment: -200744.405
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 110 / LogL: -200570.921 / Time: 0h:6m:48s (0h:5m:36s left)
+Iteration 120 / LogL: -200605.474 / Time: 0h:7m:16s (0h:4m:53s left)
+Iteration 130 / LogL: -200710.235 / Time: 0h:7m:46s (0h:4m:13s left)
+TREE SEARCH COMPLETED AFTER 132 ITERATIONS / Time: 0h:7m:51s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -200568.918
+Optimal log-likelihood: -200568.909
+Site proportion and rates:  (0.089,0.515) (0.294,0.515) (0.256,0.726) (0.353,1.443) (0.010,11.231)
+Parameters optimization took 1 rounds (2.038 sec)
+BEST SCORE FOUND : -200568.909
+Creating bootstrap support values...
+Split supports printed to NEXUS file discr_mat.phy.splits.nex
+Total tree length: 13.822
+
+Total number of iterations: 132
+CPU time used for tree search: 2291.502 sec (0h:38m:11s)
+Wall-clock time used for tree search: 466.866 sec (0h:7m:46s)
+Total CPU time used: 2323.136 sec (0h:38m:43s)
+Total wall-clock time used: 474.169 sec (0h:7m:54s)
+
+Computing bootstrap consensus tree...
+Reading input file discr_mat.phy.splits.nex...
+43 taxa and 164 splits.
+Consensus tree written to discr_mat.phy.contree
+Reading input trees file discr_mat.phy.contree
+Log-likelihood of consensus tree: -200569.956
+
+Analysis results written to: 
+  IQ-TREE report:                discr_mat.phy.iqtree
+  Maximum-likelihood tree:       discr_mat.phy.treefile
+  Likelihood distances:          discr_mat.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          discr_mat.phy.splits.nex
+  Consensus tree:                discr_mat.phy.contree
+  Screen log file:               discr_mat.phy.log
+
+Date and Time: Mon Feb  7 12:59:05 2022

@@ -1,0 +1,204 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fritzen.sars.no (SSE4.2, 1009 GB RAM)
+Command: iqtree2 -s binary_deg.phy -T 5 -bb 1000
+Seed:    146721 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb  8 07:15:36 2022
+Kernel:  SSE2 - 5 threads (32 CPU cores detected)
+
+Reading alignment file binary_deg.phy ... Phylip format detected
+Alignment most likely contains binary sequences
+Alignment has 43 sequences with 16225 columns, 5001 distinct patterns
+7909 parsimony-informative, 8316 singleton sites, 0 constant sites
+                            Gap/Ambiguity  Composition  p-value
+   1  Anopheles_stephensi           0.00%    failed      0.00%
+   2  Ascaris_suum                  0.00%    failed      0.00%
+   3  Blattella_germanica           0.00%    failed      0.00%
+   4  Bombyx_mori                   0.00%    passed     89.53%
+   5  Bos_taurus                    0.00%    failed      0.00%
+   6  Branchiostoma_lanceolatum     0.00%    failed      0.00%
+   7  Caenorhabditis_angaria        0.00%    failed      0.00%
+   8  Caenorhabditis_elegans        0.00%    failed      0.42%
+   9  Capra_hircus                  0.00%    failed      0.00%
+  10  Ciona_intestinalis            0.00%    failed      0.00%
+  11  Crassostrea_gigas             0.00%    passed     38.71%
+  12  Danio_rerio                   0.00%    failed      0.00%
+  13  Drosophila_ananassae          0.00%    failed      1.10%
+  14  Drosophila_erecta             0.00%    failed      0.00%
+  15  Drosophila_melanogaster       0.00%    failed      0.00%
+  16  Drosophila_mojavensis         0.00%    failed      0.00%
+  17  Drosophila_persimilis         0.00%    failed      0.00%
+  18  Drosophila_simulans           0.00%    failed      0.00%
+  19  Drosophila_virilis            0.00%    failed      0.13%
+  20  Drosophila_willistoni         0.00%    failed      0.34%
+  21  Drosophila_yakuba             0.00%    failed      2.05%
+  22  Gallus_gallus                 0.00%    failed      0.00%
+  23  Heliocidaris_erythrogramma    0.00%    failed      0.00%
+  24  Heliocidaris_tuberculata      0.00%    failed      0.00%
+  25  Homo_sapiens                  0.00%    failed      0.00%
+  26  Hypsibius_dujardini           0.00%    failed      0.00%
+  27  Lytechinus_variegatus         0.00%    failed      0.00%
+  28  Macaca_mulatta                0.00%    failed      0.00%
+  29  Mesocentrotus_franciscanus    0.00%    failed      0.00%
+  30  Mnemiopsis_leidyi             0.00%    failed      0.00%
+  31  Montipora_capitata            0.00%    failed      0.00%
+  32  Mus_musculus                  0.00%    failed      0.00%
+  33  Nematostella_vectensis        0.00%    failed      0.00%
+  34  Paracentrotus_lividus         0.00%    failed      0.00%
+  35  Patiria_miniata               0.00%    failed      0.00%
+  36  Platynereis_dumerilii         0.00%    failed      0.00%
+  37  Priapulus_caudatus            0.00%    failed      0.00%
+  38  Steinernema_carpocapsae       0.00%    failed      0.00%
+  39  Steinernema_feltiae           0.00%    failed      0.00%
+  40  Sus_scrofa                    0.00%    failed      0.00%
+  41  Terebratalia_transversa       0.00%    failed      0.00%
+  42  Tribolium_castaneum           0.00%    failed      0.00%
+  43  Xenopus_tropicalis            0.00%    failed      0.00%
+****  TOTAL                         0.00%  41 sequences failed composition chi2 test (p-value<5%; df=1)
+
+NOTE: Restoring information from model checkpoint file binary_deg.phy.model.gz
+
+CHECKPOINT: Initial tree restored
+Perform fast likelihood tree search using GTR2+ASC+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -137528.990
+2. Current log-likelihood: -137509.393
+3. Current log-likelihood: -137491.624
+4. Current log-likelihood: -137483.120
+5. Current log-likelihood: -137478.627
+6. Current log-likelihood: -137475.904
+7. Current log-likelihood: -137474.582
+Optimal log-likelihood: -137473.173
+State frequencies:  0: 0.934  1: 0.066
+Gamma shape alpha: 14.400
+Parameters optimization took 7 rounds (1.218 sec)
+Time for fast ML tree search: 3.613 seconds
+
+NOTE: ModelFinder requires 56 MB RAM!
+ModelFinder will test up to 44 binary models (sample size: 16225) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR2+FO       140780.727   84  281729.454   281730.338   282375.776
+  2  GTR2+FO+ASC   137511.876   84  275191.751   275192.636   275838.073
+  3  GTR2+FO+G4    140780.784   85  281731.569   281732.475   282385.585
+  4  GTR2+FO+ASC+G4 137456.573   85  275083.146   275084.052   275737.163
+  5  GTR2+FO+R2    140781.213   86  281734.427   281735.354   282396.137
+  6  GTR2+FO+R3    140781.012   88  281738.023   281738.994   282415.122
+ 14  GTR2+FO+ASC+R2 137443.217   86  275058.435   275059.362   275720.145
+WARNING: Log-likelihood -137446 of GTR2+FO+ASC+R3 worse than GTR2+FO+ASC+R2 -137443
+ 15  GTR2+FO+ASC+R3 137445.680   88  275067.360   275068.331   275744.459
+ 23  JC2+FQ        153073.288   83  306312.576   306313.440   306951.204
+ 24  JC2+FQ+ASC    151272.448   83  302710.897   302711.760   303349.524
+ 25  JC2+FQ+G4     151744.017   84  303656.034   303656.919   304302.356
+ 26  JC2+FQ+ASC+G4 147396.655   84  294961.309   294962.194   295607.631
+ 36  JC2+FQ+ASC+R2 146052.357   85  292274.715   292275.621   292928.731
+ 37  JC2+FQ+ASC+R3 145736.528   87  291647.056   291648.005   292316.461
+Akaike Information Criterion:           GTR2+FO+ASC+R2
+Corrected Akaike Information Criterion: GTR2+FO+ASC+R2
+Bayesian Information Criterion:         GTR2+FO+ASC+R2
+Best-fit model: GTR2+FO+ASC+R2 chosen according to BIC
+
+All model information printed to binary_deg.phy.model.gz
+CPU time for ModelFinder: 191.794 seconds (0h:3m:11s)
+Wall-clock time for ModelFinder: 40.811 seconds (0h:0m:40s)
+Generating 1000 samples for ultrafast bootstrap (seed: 146721)...
+
+NOTE: 26 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -137443.217
+Optimal log-likelihood: -137443.158
+State frequencies:  0: 0.944  1: 0.056
+Site proportion and rates:  (0.200,0.604) (0.800,1.099)
+Parameters optimization took 1 rounds (0.127 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.012248 sec (of wall-clock time) 0.055991 sec(of CPU time)
+Computing RapidNJ tree took 0.034576 sec (of wall-clock time) 0.037994 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -137771.802
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.597 second
+Computing log-likelihood of 98 initial trees ... 2.879 seconds
+Current best score: -137443.158
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -137149.943
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -137131.377
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -137123.637
+Iteration 10 / LogL: -137385.722 / Time: 0h:0m:15s
+Iteration 20 / LogL: -137213.053 / Time: 0h:0m:23s
+Finish initializing candidate tree set (20)
+Current best tree score: -137123.637 / CPU time: 22.905
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -137117.299
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -137108.647
+Iteration 30 / LogL: -137113.278 / Time: 0h:0m:29s (0h:1m:40s left)
+Iteration 40 / LogL: -137113.528 / Time: 0h:0m:34s (0h:1m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -137106.755
+Iteration 50 / LogL: -137110.405 / Time: 0h:0m:39s (0h:1m:14s left)
+Log-likelihood cutoff on original alignment: -137199.013
+Iteration 60 / LogL: -137107.953 / Time: 0h:0m:44s (0h:1m:2s left)
+Iteration 70 / LogL: -137109.314 / Time: 0h:0m:49s (0h:0m:51s left)
+Iteration 80 / LogL: -137111.106 / Time: 0h:0m:54s (0h:0m:42s left)
+Iteration 90 / LogL: -137108.737 / Time: 0h:0m:59s (0h:0m:34s left)
+Iteration 100 / LogL: -137108.031 / Time: 0h:1m:3s (0h:0m:27s left)
+Log-likelihood cutoff on original alignment: -137199.013
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -137109.414 / Time: 0h:1m:9s (0h:0m:57s left)
+Iteration 120 / LogL: -137115.466 / Time: 0h:1m:13s (0h:0m:49s left)
+Iteration 130 / LogL: -137115.337 / Time: 0h:1m:18s (0h:0m:42s left)
+Iteration 140 / LogL: -137159.252 / Time: 0h:1m:23s (0h:0m:36s left)
+TREE SEARCH COMPLETED AFTER 143 ITERATIONS / Time: 0h:1m:25s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -137106.755
+2. Current log-likelihood: -137106.744
+Optimal log-likelihood: -137106.731
+State frequencies:  0: 0.945  1: 0.055
+Site proportion and rates:  (0.157,0.578) (0.843,1.079)
+Parameters optimization took 2 rounds (0.224 sec)
+BEST SCORE FOUND : -137106.731
+Creating bootstrap support values...
+Split supports printed to NEXUS file binary_deg.phy.splits.nex
+Total tree length: 3.266
+
+Total number of iterations: 143
+CPU time used for tree search: 414.460 sec (0h:6m:54s)
+Wall-clock time used for tree search: 84.489 sec (0h:1m:24s)
+Total CPU time used: 418.361 sec (0h:6m:58s)
+Total wall-clock time used: 85.808 sec (0h:1m:25s)
+
+Computing bootstrap consensus tree...
+Reading input file binary_deg.phy.splits.nex...
+43 taxa and 259 splits.
+Consensus tree written to binary_deg.phy.contree
+Reading input trees file binary_deg.phy.contree
+Log-likelihood of consensus tree: -137108.547
+
+Analysis results written to: 
+  IQ-TREE report:                binary_deg.phy.iqtree
+  Maximum-likelihood tree:       binary_deg.phy.treefile
+  Likelihood distances:          binary_deg.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          binary_deg.phy.splits.nex
+  Consensus tree:                binary_deg.phy.contree
+  Screen log file:               binary_deg.phy.log
+
+Date and Time: Tue Feb  8 07:17:43 2022
